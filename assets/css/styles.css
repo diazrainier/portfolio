@@ -1,0 +1,360 @@
+@font-face {
+
+	font-family: "Nexa Bold";
+	src: url("../font/Nexa-Bold.otf");
+
+}
+
+@font-face {
+
+	font-family: "Nexa Light";
+	src: url("../font/Nexa-Light.otf");
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}	
+
+.container-fluid {
+
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/*Navbar*/
+
+.nav-font-bold {
+
+	
+	font-family: "Nexa Bold";
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+
+	color: #6699ff;
+}
+
+.navbar-header{
+    text-align:center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+	padding-right: 3rem;
+	padding-left: 1rem;
+}
+
+/*End of Navbar*/
+
+/*JumboTron*/
+
+.avatar {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 20px;
+
+
+
+}
+
+.image{
+
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background-color: #6699ff;
+}
+
+.jumbotron {
+
+	background-color: #fff;
+}
+
+.jumbotron-text {
+
+	font-family: "Nexa Bold";
+	text-align: center;
+	
+}
+
+.jumbotron-subtext {
+	font-family: "Nexa Light";
+	text-align: center;
+	color: #6699ff;
+	font-style: italic;
+	font-size: 2rem;
+}
+
+span {
+
+	color: #333333;
+}
+
+.resume {
+
+	text-align: center;
+
+}
+
+#resume {
+
+	border-radius: 10px;
+	height: 50px;
+	width: 150px;
+	background-color: #FFF;
+	font-family: "Nexa Light";
+	color: #6699ff;
+	border: 2px solid #6699ff;
+	padding: 3px;
+	font-size: 20px;
+}
+
+#resume:hover {
+	background-color: #6699ff;
+	color: #fff;
+}
+
+
+
+/*End of Jumbotron*/
+
+#about {
+
+	background-color: #6699ff;
+	height: 250px;
+}
+
+.about {
+	margin-top: 10px;
+	
+	font-family: "Nexa Bold";
+	color: #333333;
+	text-align: center;
+	font-size: 3.75rem;
+	
+}
+
+.about-text {
+
+	margin-top: 20px;
+	font-family: "Nexa Light";
+	color: #fff;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 1.5rem;
+	margin-bottom: 50px;
+}
+
+/*End OF About*/
+
+/*Skills*/
+
+#skills {
+
+	
+	margin-top: 30px;
+	text-align: center;
+	border-style: solid;
+	border-color: #6699ff;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	margin-bottom: 30px;
+
+}
+
+.skillsheader {
+
+	color: #333333;
+	font-family: "Nexa Bold";
+	margin-top: 10px;
+	font-size: 3.75rem;
+}
+
+.skillh2 {
+
+	color: #6699ff;
+	font-family: "Nexa Bold";
+	font-size: 3rem;
+}
+
+.designskills {
+
+	text-align: center;
+	font-family: "Nexa Bold";
+	color: #333333;
+	list-style-type: none;
+	margin-bottom: 10px;
+
+}
+
+.developerskills {
+
+	text-align: center;
+	font-family: "Nexa Bold";
+	color: #333333;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+/*end of Skills*/
+
+/*Projects*/
+
+.projectsheader {
+
+	text-align: center;
+	color: #333333;
+	font-family: "Nexa Bold";
+	margin-top: 10px;
+	font-size: 3.75rem;
+	margin-bottom: 20px;
+}
+
+.card {
+
+	margin: 5px;
+	border: 5px solid #6699ff;
+	height: 450px;	
+}
+
+.card-body {
+	text-align: center;
+
+
+
+}
+
+.card-title {
+	font-family: "Nexa Bold";
+	color: #6699ff;	
+}
+
+.card-text {
+	font-family: "Nexa Light";	
+}
+
+.btn-primary {
+	background-color: #6699ff;
+	border-color: #6699ff;		
+	margin-bottom: 	5px;
+}
+
+
+/*End of Project*/
+
+#contact {
+
+	margin-top: 30px;		
+	background-color: #FFF;
+	height: 100px;
+	border-top: 3px solid #6699ff;
+
+}
+
+.contact {
+
+	margin-top: 10px;		
+	color: #333333;
+	font-family: "Nexa Bold";
+	text-align: center;		
+	font-size: 1.5rem;	
+}
+
+.center {
+	text-align: center;	
+	padding-bottom: 5px;	
+}
+
+div.center a {
+
+	color: #6699ff;
+	margin: 5px;
+}
+
+div.center a:hover {
+
+	color: #333333;
+}
+
+.footer {
+
+	font-family: "Nexa Light";	
+	padding-bottom: 0;
+	margin-bottom: 	0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 451px) and (max-width: 768px) {
+
+	
+.about-text {
+	font-size: 1rem;
+}
+
+#skills {
+	width: 600px;
+
+}
+	
+.skillh2 {
+
+	font-size: 2rem;
+}
+
+.card {
+
+	height: 350px;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+.about-text {
+	font-size: .75rem;
+}
+
+#skills {
+
+	width: 300px;
+}
+
+.skillh2 {
+
+	font-size: 2rem;
+}
+
+#skills {
+
+	height: 700px;
+}
+	
+}
